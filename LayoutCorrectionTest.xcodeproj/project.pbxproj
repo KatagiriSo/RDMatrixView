@@ -24,8 +24,6 @@
 		3208DFA516B3B3B5006533AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208DF7D16B3B3B5006533AA /* Foundation.framework */; };
 		3208DFAD16B3B3B5006533AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3208DFAB16B3B3B5006533AA /* InfoPlist.strings */; };
 		3208DFB016B3B3B5006533AA /* LayoutCorrectionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFAF16B3B3B5006533AA /* LayoutCorrectionTestTests.m */; };
-		3208DFBB16B3B406006533AA /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFBA16B3B406006533AA /* CollectionViewController.m */; };
-		3208DFC716B3C013006533AA /* TateYokoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFC616B3C013006533AA /* TateYokoController.m */; };
 		3208DFCA16B3C0B7006533AA /* MatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFC916B3C0B7006533AA /* MatrixView.m */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +61,6 @@
 		3208DFAC16B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3208DFAE16B3B3B5006533AA /* LayoutCorrectionTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutCorrectionTestTests.h; sourceTree = "<group>"; };
 		3208DFAF16B3B3B5006533AA /* LayoutCorrectionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutCorrectionTestTests.m; sourceTree = "<group>"; };
-		3208DFB916B3B406006533AA /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
-		3208DFBA16B3B406006533AA /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
-		3208DFC516B3C013006533AA /* TateYokoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TateYokoController.h; sourceTree = "<group>"; };
-		3208DFC616B3C013006533AA /* TateYokoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TateYokoController.m; sourceTree = "<group>"; };
 		3208DFC816B3C0B7006533AA /* MatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixView.h; sourceTree = "<group>"; };
 		3208DFC916B3C0B7006533AA /* MatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,10 +131,6 @@
 				3208DFC816B3C0B7006533AA /* MatrixView.h */,
 				3208DFC916B3C0B7006533AA /* MatrixView.m */,
 				3208DF8216B3B3B5006533AA /* Supporting Files */,
-				3208DFB916B3B406006533AA /* CollectionViewController.h */,
-				3208DFBA16B3B406006533AA /* CollectionViewController.m */,
-				3208DFC516B3C013006533AA /* TateYokoController.h */,
-				3208DFC616B3C013006533AA /* TateYokoController.m */,
 			);
 			path = LayoutCorrectionTest;
 			sourceTree = "<group>";
@@ -292,8 +282,6 @@
 				3208DF8816B3B3B5006533AA /* main.m in Sources */,
 				3208DF8C16B3B3B5006533AA /* AppDelegate.m in Sources */,
 				3208DF9B16B3B3B5006533AA /* ViewController.m in Sources */,
-				3208DFBB16B3B406006533AA /* CollectionViewController.m in Sources */,
-				3208DFC716B3C013006533AA /* TateYokoController.m in Sources */,
 				3208DFCA16B3C0B7006533AA /* MatrixView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
