@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewController.h
 //  LayoutCorrectionTest
 //
 //  Created by katagiri on 2013/01/26.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <MatrixViewProtocol>
-@property (strong, nonatomic) IBOutlet MatrixView *matrixView;
-
-
+@interface CollectionViewController : UICollectionViewController
+@property (weak, nonatomic) IBOutlet UICollectionViewCell *cell;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TateYokoController.h
 //  LayoutCorrectionTest
 //
 //  Created by katagiri on 2013/01/26.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <MatrixViewProtocol>
-@property (strong, nonatomic) IBOutlet MatrixView *matrixView;
-
-
+@interface TateYokoController : UIViewController
 
 @end
