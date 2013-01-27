@@ -38,14 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3208DF7716B3B3B5006533AA /* LayoutCorrectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutCorrectionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3208DF7716B3B3B5006533AA /* MatrixView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3208DF7B16B3B3B5006533AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3208DF7D16B3B3B5006533AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3208DF7F16B3B3B5006533AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3208DF8316B3B3B5006533AA /* LayoutCorrectionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayoutCorrectionTest-Info.plist"; sourceTree = "<group>"; };
+		3208DF8316B3B3B5006533AA /* MatrixView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatrixView-Info.plist"; sourceTree = "<group>"; };
 		3208DF8516B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3208DF8716B3B3B5006533AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3208DF8916B3B3B5006533AA /* LayoutCorrectionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayoutCorrectionTest-Prefix.pch"; sourceTree = "<group>"; };
+		3208DF8916B3B3B5006533AA /* MatrixView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatrixView-Prefix.pch"; sourceTree = "<group>"; };
 		3208DF8A16B3B3B5006533AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3208DF8B16B3B3B5006533AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3208DF8D16B3B3B5006533AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -55,9 +55,9 @@
 		3208DF9716B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		3208DF9916B3B3B5006533AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3208DF9A16B3B3B5006533AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3208DFA116B3B3B5006533AA /* LayoutCorrectionTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutCorrectionTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3208DFA116B3B3B5006533AA /* MatrixViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3208DFA216B3B3B5006533AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3208DFAA16B3B3B5006533AA /* LayoutCorrectionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayoutCorrectionTestTests-Info.plist"; sourceTree = "<group>"; };
+		3208DFAA16B3B3B5006533AA /* MatrixViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatrixViewTests-Info.plist"; sourceTree = "<group>"; };
 		3208DFAC16B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3208DFAE16B3B3B5006533AA /* LayoutCorrectionTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutCorrectionTestTests.h; sourceTree = "<group>"; };
 		3208DFAF16B3B3B5006533AA /* LayoutCorrectionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutCorrectionTestTests.m; sourceTree = "<group>"; };
@@ -92,7 +92,8 @@
 		3208DF6C16B3B3B5006533AA = {
 			isa = PBXGroup;
 			children = (
-				3208DF8116B3B3B5006533AA /* LayoutCorrectionTest */,
+				3208DFD716B547B2006533AA /* Mateix */,
+				3208DF8116B3B3B5006533AA /* Sample */,
 				3208DFA816B3B3B5006533AA /* LayoutCorrectionTestTests */,
 				3208DF7A16B3B3B5006533AA /* Frameworks */,
 				3208DF7816B3B3B5006533AA /* Products */,
@@ -102,8 +103,8 @@
 		3208DF7816B3B3B5006533AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3208DF7716B3B3B5006533AA /* LayoutCorrectionTest.app */,
-				3208DFA116B3B3B5006533AA /* LayoutCorrectionTestTests.octest */,
+				3208DF7716B3B3B5006533AA /* MatrixView.app */,
+				3208DFA116B3B3B5006533AA /* MatrixViewTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +120,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3208DF8116B3B3B5006533AA /* LayoutCorrectionTest */ = {
+		3208DF8116B3B3B5006533AA /* Sample */ = {
 			isa = PBXGroup;
 			children = (
 				3208DF8A16B3B3B5006533AA /* AppDelegate.h */,
@@ -128,20 +129,19 @@
 				3208DF9616B3B3B5006533AA /* MainStoryboard_iPad.storyboard */,
 				3208DF9916B3B3B5006533AA /* ViewController.h */,
 				3208DF9A16B3B3B5006533AA /* ViewController.m */,
-				3208DFC816B3C0B7006533AA /* MatrixView.h */,
-				3208DFC916B3C0B7006533AA /* MatrixView.m */,
 				3208DF8216B3B3B5006533AA /* Supporting Files */,
 			);
+			name = Sample;
 			path = LayoutCorrectionTest;
 			sourceTree = "<group>";
 		};
 		3208DF8216B3B3B5006533AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3208DF8316B3B3B5006533AA /* LayoutCorrectionTest-Info.plist */,
+				3208DF8316B3B3B5006533AA /* MatrixView-Info.plist */,
 				3208DF8416B3B3B5006533AA /* InfoPlist.strings */,
 				3208DF8716B3B3B5006533AA /* main.m */,
-				3208DF8916B3B3B5006533AA /* LayoutCorrectionTest-Prefix.pch */,
+				3208DF8916B3B3B5006533AA /* MatrixView-Prefix.pch */,
 				3208DF8D16B3B3B5006533AA /* Default.png */,
 				3208DF8F16B3B3B5006533AA /* Default@2x.png */,
 				3208DF9116B3B3B5006533AA /* Default-568h@2x.png */,
@@ -162,18 +162,28 @@
 		3208DFA916B3B3B5006533AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3208DFAA16B3B3B5006533AA /* LayoutCorrectionTestTests-Info.plist */,
+				3208DFAA16B3B3B5006533AA /* MatrixViewTests-Info.plist */,
 				3208DFAB16B3B3B5006533AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3208DFD716B547B2006533AA /* Mateix */ = {
+			isa = PBXGroup;
+			children = (
+				3208DFC816B3C0B7006533AA /* MatrixView.h */,
+				3208DFC916B3C0B7006533AA /* MatrixView.m */,
+			);
+			name = Mateix;
+			path = LayoutCorrectionTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3208DF7616B3B3B5006533AA /* LayoutCorrectionTest */ = {
+		3208DF7616B3B3B5006533AA /* MatrixView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3208DFB316B3B3B5006533AA /* Build configuration list for PBXNativeTarget "LayoutCorrectionTest" */;
+			buildConfigurationList = 3208DFB316B3B3B5006533AA /* Build configuration list for PBXNativeTarget "MatrixView" */;
 			buildPhases = (
 				3208DF7316B3B3B5006533AA /* Sources */,
 				3208DF7416B3B3B5006533AA /* Frameworks */,
@@ -183,14 +193,14 @@
 			);
 			dependencies = (
 			);
-			name = LayoutCorrectionTest;
+			name = MatrixView;
 			productName = LayoutCorrectionTest;
-			productReference = 3208DF7716B3B3B5006533AA /* LayoutCorrectionTest.app */;
+			productReference = 3208DF7716B3B3B5006533AA /* MatrixView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3208DFA016B3B3B5006533AA /* LayoutCorrectionTestTests */ = {
+		3208DFA016B3B3B5006533AA /* MatrixViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3208DFB616B3B3B5006533AA /* Build configuration list for PBXNativeTarget "LayoutCorrectionTestTests" */;
+			buildConfigurationList = 3208DFB616B3B3B5006533AA /* Build configuration list for PBXNativeTarget "MatrixViewTests" */;
 			buildPhases = (
 				3208DF9C16B3B3B5006533AA /* Sources */,
 				3208DF9D16B3B3B5006533AA /* Frameworks */,
@@ -202,9 +212,9 @@
 			dependencies = (
 				3208DFA716B3B3B5006533AA /* PBXTargetDependency */,
 			);
-			name = LayoutCorrectionTestTests;
+			name = MatrixViewTests;
 			productName = LayoutCorrectionTestTests;
-			productReference = 3208DFA116B3B3B5006533AA /* LayoutCorrectionTestTests.octest */;
+			productReference = 3208DFA116B3B3B5006533AA /* MatrixViewTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +226,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = RodhosSoft;
 			};
-			buildConfigurationList = 3208DF7116B3B3B5006533AA /* Build configuration list for PBXProject "LayoutCorrectionTest" */;
+			buildConfigurationList = 3208DF7116B3B3B5006533AA /* Build configuration list for PBXProject "MatrixView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,8 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3208DF7616B3B3B5006533AA /* LayoutCorrectionTest */,
-				3208DFA016B3B3B5006533AA /* LayoutCorrectionTestTests */,
+				3208DF7616B3B3B5006533AA /* MatrixView */,
+				3208DFA016B3B3B5006533AA /* MatrixViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +309,7 @@
 /* Begin PBXTargetDependency section */
 		3208DFA716B3B3B5006533AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3208DF7616B3B3B5006533AA /* LayoutCorrectionTest */;
+			target = 3208DF7616B3B3B5006533AA /* MatrixView */;
 			targetProxy = 3208DFA616B3B3B5006533AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,9 +406,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LayoutCorrectionTest/LayoutCorrectionTest-Prefix.pch";
-				INFOPLIST_FILE = "LayoutCorrectionTest/LayoutCorrectionTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LayoutCorrectionTest/MatrixView-Prefix.pch";
+				INFOPLIST_FILE = "LayoutCorrectionTest/MatrixView-Info.plist";
+				PRODUCT_NAME = MatrixView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,9 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LayoutCorrectionTest/LayoutCorrectionTest-Prefix.pch";
-				INFOPLIST_FILE = "LayoutCorrectionTest/LayoutCorrectionTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LayoutCorrectionTest/MatrixView-Prefix.pch";
+				INFOPLIST_FILE = "LayoutCorrectionTest/MatrixView-Info.plist";
+				PRODUCT_NAME = MatrixView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,8 +434,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LayoutCorrectionTest/LayoutCorrectionTest-Prefix.pch";
-				INFOPLIST_FILE = "LayoutCorrectionTestTests/LayoutCorrectionTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LayoutCorrectionTestTests/MatrixViewTests-Info.plist";
+				PRODUCT_NAME = MatrixViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -441,8 +451,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LayoutCorrectionTest/LayoutCorrectionTest-Prefix.pch";
-				INFOPLIST_FILE = "LayoutCorrectionTestTests/LayoutCorrectionTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LayoutCorrectionTestTests/MatrixViewTests-Info.plist";
+				PRODUCT_NAME = MatrixViewTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -451,7 +461,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3208DF7116B3B3B5006533AA /* Build configuration list for PBXProject "LayoutCorrectionTest" */ = {
+		3208DF7116B3B3B5006533AA /* Build configuration list for PBXProject "MatrixView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3208DFB116B3B3B5006533AA /* Debug */,
@@ -460,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3208DFB316B3B3B5006533AA /* Build configuration list for PBXNativeTarget "LayoutCorrectionTest" */ = {
+		3208DFB316B3B3B5006533AA /* Build configuration list for PBXNativeTarget "MatrixView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3208DFB416B3B3B5006533AA /* Debug */,
@@ -468,7 +478,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3208DFB616B3B3B5006533AA /* Build configuration list for PBXNativeTarget "LayoutCorrectionTestTests" */ = {
+		3208DFB616B3B3B5006533AA /* Build configuration list for PBXNativeTarget "MatrixViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3208DFB716B3B3B5006533AA /* Debug */,
