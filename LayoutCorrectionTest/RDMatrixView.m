@@ -62,18 +62,23 @@
 {
     [self deleteOutView:rect];
     
+    float x = (rect.origin.x>0) ? rect.origin.x : 0;
+    float y = (rect.origin.y>0) ? rect.origin.y : 0;
+    
     // Drawing code
-    NSInteger startXNum = [self numberRegion:rect.origin.x
+    NSInteger startXNum = [self numberRegion:x
                                   targetSize:self.cellView.frame.size.width];
-    NSInteger endXNum = [self numberRegion:rect.origin.x+rect.size.width
+    NSInteger endXNum = [self numberRegion:x+rect.size.width
                                 targetSize:self.cellView.frame.size.width] + 1;
     
-    NSInteger startYNum = [self numberRegion:rect.origin.y
+    NSInteger startYNum = [self numberRegion:y
                                   targetSize:self.cellView.frame.size.height];
-    NSInteger endYNum = [self numberRegion:rect.origin.y+rect.size.height
+    NSInteger endYNum = [self numberRegion:y+rect.size.height
                                 targetSize:self.cellView.frame.size.height] + 1;
     
-
+    if (endXNum >= self.maxX) endXNum = self.maxX;
+    if (endYNum >= self.maxY) endYNum = self.maxY;
+    
     for (int iy = startYNum ; iy<endYNum ;iy++) for (int ix = startXNum; ix<endXNum; ix++)
     {
         NSInteger keyNum = iy*1000+ix+1;
