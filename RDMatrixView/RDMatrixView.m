@@ -137,9 +137,12 @@
 - (void)tap:(UITapGestureRecognizer *)gesture
 {
     UIView *v = gesture.view;
-    [self.matrixDelegate matrixView:self
-                         tappedForx:[self xforCell:v]
-                                  y:[self yforCell:v]];
+    
+    if ([self.matrixDelegate respondsToSelector:@selector(matrixView:tappedForx:y:)]) {
+        [self.matrixDelegate matrixView:self
+                             tappedForx:[self xforCell:v]
+                                      y:[self yforCell:v]];
+    }
 }
 
 
