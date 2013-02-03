@@ -7,7 +7,6 @@
 //
 
 #import "RDMatrixView.h"
-
 @interface RDMatrixView()
 @property (nonatomic, strong) UIView *baseView;
 @end
@@ -32,6 +31,11 @@
 
 -(NSInteger)numberRegion:(NSInteger)region targetSize:(NSInteger)tarSize
 {
+    if (!tarSize) {
+        NSLog(@"[Error]numberRegion:%d targetSize:%d)", region, tarSize);
+        return 0;
+    }
+    
     return (NSInteger)(region / tarSize);
 }
 
