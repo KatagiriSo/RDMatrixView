@@ -7,16 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+@class  RDMatrixView;
 
 @protocol MatrixViewProtocol <NSObject>
-- (UIView *)viewForx:(NSInteger)x y:(NSInteger)y;
+- (UIView *)matrixView:(RDMatrixView *)matrixView viewForx:(NSInteger)x y:(NSInteger)y;
+@optional
+- (void)matrixView:(RDMatrixView *)matrixView tappedForx:(NSInteger)x y:(NSInteger)y;
 @end
 
-@interface MatrixView : UIScrollView <UIScrollViewDelegate>
+@interface RDMatrixView : UIScrollView <UIScrollViewDelegate>
 @property (nonatomic, assign) NSInteger maxX;
 @property (nonatomic, assign) NSInteger maxY;
 @property (nonatomic, strong) UIView *cellView;
-@property (nonatomic, strong) UIView *baseView;
+@property (nonatomic, assign) BOOL tapEnabled;
 @property (nonatomic, weak) IBOutlet id<MatrixViewProtocol> matrixDelegate;
 - (void)setUp;
 @end

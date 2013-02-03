@@ -6,10 +6,13 @@
 //  Copyright (c) 2013年 RodhosSoft. Distributed under the MIT license.
 //
 
-#import "MatrixView.h"
+#import "RDMatrixView.h"
 
+@interface RDMatrixView()
+@property (nonatomic, strong) UIView *baseView;
+@end
 
-@implementation MatrixView
+@implementation RDMatrixView
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -72,12 +75,18 @@
         NSInteger keyNum = iy*1000+ix+1;
         if ([self.baseView viewWithTag:keyNum]) continue;
         
-        UIView *v = [self.matrixDelegate viewForx:ix y:iy];
+        UIView *v = [self.matrixDelegate matrixView:self viewForx:ix y:iy];
         v.tag = keyNum;
         v.frame = CGRectMake(0.0f + self.cellView.frame.size.width * ix,
                              0.0f + self.cellView.frame.size.height * iy,
                              v.frame.size.width,
                              v.frame.size.height);
+        if (self.tapEnabled) {
+            UITapGestureRecognizer *taoGesture = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                         action:@selector(tap:)];
+            [v addGestureRecognizer:taoGesture];
+        }
+    
         
         [self.baseView addSubview:v];
     }
@@ -103,6 +112,27 @@
 {
     [self setUpBaseView];
 }
+
+- (NSInteger)xforCell:(UIView *)view
+{
+    return view.tag % 1000;
+}
+
+- (NSInteger)yforCell:(UIView *)view
+{
+    return (NSInteger)(view.tag/1000);
+}
+
+#pragma mark - 
+
+- (void)tap:(UITapGestureRecognizer *)gesture
+{
+    UIView *v = gesture.view;
+    [self.matrixDelegate matrixView:self
+                         tappedForx:[self xforCell:v]
+                                  y:[self yforCell:v]];
+}
+
 
 
 

@@ -8,7 +8,7 @@
         <scene sceneID="5ai-HH-aTL">
             <objects>
                 <viewController id="Zas-KQ-HCz" customClass="ViewController" sceneMemberID="viewController">
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yQq-CW-Nt5" customClass="MatrixView">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yQq-CW-Nt5" customClass="RDMatrixView">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.26274509800000001" green="0.050980392159999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>

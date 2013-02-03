@@ -3,10 +3,10 @@
 //  LayoutCorrectionTest
 //
 //  Created by katagiri on 2013/01/26.
-//  Copyright (c) 2013年 RodhosSoft. All rights reserved.
+//  Copyright (c) 2013年 RodhosSoft. Distributed under the MIT license.
 //
 
-#import "MatrixView.h"
+#import "RDMatrixView.h"
 #import "ViewController.h"
 
 @interface CellView : UIView
@@ -30,6 +30,7 @@
     self.matrixView.maxY = 50;
     self.matrixView.maxX = 50;
     self.matrixView.cellView = [self makeCellView];
+    self.matrixView.tapEnabled = YES;
     
     [self.matrixView setUp];
 }
@@ -41,12 +42,19 @@
 }
 
 #pragma mark -
-- (UIView*)viewForx:(NSInteger)x y:(NSInteger)y
+- (UIView *)matrixView:(RDMatrixView *)matrixView viewForx:(NSInteger)x y:(NSInteger)y
 {
     CellView *v = [self makeCellView];
     v.label.text = [NSString stringWithFormat:@"%d %d",x,y];
     return v;
 }
+
+- (void)matrixView:(RDMatrixView *)matrixView tappedForx:(NSInteger)x y:(NSInteger)y
+{
+    NSLog(@"tapped %d %d", x, y);
+}
+
+#pragma mark -
 
 - (CellView *)makeCellView
 {

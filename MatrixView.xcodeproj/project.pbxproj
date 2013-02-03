@@ -24,7 +24,7 @@
 		3208DFA516B3B3B5006533AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208DF7D16B3B3B5006533AA /* Foundation.framework */; };
 		3208DFAD16B3B3B5006533AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3208DFAB16B3B3B5006533AA /* InfoPlist.strings */; };
 		3208DFB016B3B3B5006533AA /* LayoutCorrectionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFAF16B3B3B5006533AA /* LayoutCorrectionTestTests.m */; };
-		3208DFCA16B3C0B7006533AA /* MatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFC916B3C0B7006533AA /* MatrixView.m */; };
+		3208DFCA16B3C0B7006533AA /* RDMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFC916B3C0B7006533AA /* RDMatrixView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +61,8 @@
 		3208DFAC16B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3208DFAE16B3B3B5006533AA /* LayoutCorrectionTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutCorrectionTestTests.h; sourceTree = "<group>"; };
 		3208DFAF16B3B3B5006533AA /* LayoutCorrectionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutCorrectionTestTests.m; sourceTree = "<group>"; };
-		3208DFC816B3C0B7006533AA /* MatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixView.h; sourceTree = "<group>"; };
-		3208DFC916B3C0B7006533AA /* MatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixView.m; sourceTree = "<group>"; };
+		3208DFC816B3C0B7006533AA /* RDMatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMatrixView.h; sourceTree = "<group>"; };
+		3208DFC916B3C0B7006533AA /* RDMatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMatrixView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +171,8 @@
 		3208DFD716B547B2006533AA /* Mateix */ = {
 			isa = PBXGroup;
 			children = (
-				3208DFC816B3C0B7006533AA /* MatrixView.h */,
-				3208DFC916B3C0B7006533AA /* MatrixView.m */,
+				3208DFC816B3C0B7006533AA /* RDMatrixView.h */,
+				3208DFC916B3C0B7006533AA /* RDMatrixView.m */,
 			);
 			name = Mateix;
 			path = LayoutCorrectionTest;
@@ -292,7 +292,7 @@
 				3208DF8816B3B3B5006533AA /* main.m in Sources */,
 				3208DF8C16B3B3B5006533AA /* AppDelegate.m in Sources */,
 				3208DF9B16B3B3B5006533AA /* ViewController.m in Sources */,
-				3208DFCA16B3C0B7006533AA /* MatrixView.m in Sources */,
+				3208DFCA16B3C0B7006533AA /* RDMatrixView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +477,7 @@
 				3208DFB516B3B3B5006533AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3208DFB616B3B3B5006533AA /* Build configuration list for PBXNativeTarget "MatrixViewTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				3208DFB816B3B3B5006533AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
