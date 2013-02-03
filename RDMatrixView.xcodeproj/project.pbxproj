@@ -10,16 +10,17 @@
 		3208DF7C16B3B3B5006533AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208DF7B16B3B3B5006533AA /* UIKit.framework */; };
 		3208DF7E16B3B3B5006533AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208DF7D16B3B3B5006533AA /* Foundation.framework */; };
 		3208DF8016B3B3B5006533AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3208DF7F16B3B3B5006533AA /* CoreGraphics.framework */; };
-		3208DF8616B3B3B5006533AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3208DF8416B3B3B5006533AA /* InfoPlist.strings */; };
-		3208DF8816B3B3B5006533AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DF8716B3B3B5006533AA /* main.m */; };
-		3208DF8C16B3B3B5006533AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DF8B16B3B3B5006533AA /* AppDelegate.m */; };
-		3208DF8E16B3B3B5006533AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3208DF8D16B3B3B5006533AA /* Default.png */; };
-		3208DF9016B3B3B5006533AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3208DF8F16B3B3B5006533AA /* Default@2x.png */; };
-		3208DF9216B3B3B5006533AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3208DF9116B3B3B5006533AA /* Default-568h@2x.png */; };
-		3208DF9516B3B3B5006533AA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3208DF9316B3B3B5006533AA /* MainStoryboard_iPhone.storyboard */; };
-		3208DF9816B3B3B5006533AA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3208DF9616B3B3B5006533AA /* MainStoryboard_iPad.storyboard */; };
-		3208DF9B16B3B3B5006533AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DF9A16B3B3B5006533AA /* ViewController.m */; };
-		3208DFCA16B3C0B7006533AA /* RDMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208DFC916B3C0B7006533AA /* RDMatrixView.m */; };
+		321B7DFE16BE890000314AED /* RDMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B7DFD16BE890000314AED /* RDMatrixView.m */; };
+		321B7E0116BE891000314AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B7E0016BE891000314AED /* AppDelegate.m */; };
+		321B7E0416BE892800314AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B7E0316BE892800314AED /* ViewController.m */; };
+		321B7E0B16BE896B00314AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E0516BE896B00314AED /* InfoPlist.strings */; };
+		321B7E0C16BE896B00314AED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E0716BE896B00314AED /* MainStoryboard_iPad.storyboard */; };
+		321B7E0D16BE896B00314AED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E0916BE896B00314AED /* MainStoryboard_iPhone.storyboard */; };
+		321B7E1116BE897A00314AED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E0E16BE897A00314AED /* Default-568h@2x.png */; };
+		321B7E1216BE897A00314AED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E0F16BE897A00314AED /* Default.png */; };
+		321B7E1316BE897A00314AED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E1016BE897A00314AED /* Default@2x.png */; };
+		321B7E1716BE898400314AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B7E1416BE898400314AED /* main.m */; };
+		321B7E1816BE898400314AED /* RDMatrixView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 321B7E1516BE898400314AED /* RDMatrixView-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,22 +28,22 @@
 		3208DF7B16B3B3B5006533AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3208DF7D16B3B3B5006533AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3208DF7F16B3B3B5006533AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3208DF8316B3B3B5006533AA /* RDMatrixView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RDMatrixView-Info.plist"; sourceTree = "<group>"; };
-		3208DF8516B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3208DF8716B3B3B5006533AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3208DF8916B3B3B5006533AA /* RDMatrixView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDMatrixView-Prefix.pch"; sourceTree = "<group>"; };
-		3208DF8A16B3B3B5006533AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3208DF8B16B3B3B5006533AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3208DF8D16B3B3B5006533AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3208DF8F16B3B3B5006533AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3208DF9116B3B3B5006533AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3208DF9416B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		3208DF9716B3B3B5006533AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3208DF9916B3B3B5006533AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3208DF9A16B3B3B5006533AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3208DFA216B3B3B5006533AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3208DFC816B3C0B7006533AA /* RDMatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMatrixView.h; sourceTree = "<group>"; };
-		3208DFC916B3C0B7006533AA /* RDMatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMatrixView.m; sourceTree = "<group>"; };
+		321B7DFC16BE890000314AED /* RDMatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RDMatrixView.h; path = RDMatrixView/RDMatrixView.h; sourceTree = SOURCE_ROOT; };
+		321B7DFD16BE890000314AED /* RDMatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RDMatrixView.m; path = RDMatrixView/RDMatrixView.m; sourceTree = SOURCE_ROOT; };
+		321B7DFF16BE891000314AED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RDMatrixView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		321B7E0016BE891000314AED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RDMatrixView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		321B7E0216BE892800314AED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RDMatrixView/ViewController.h; sourceTree = SOURCE_ROOT; };
+		321B7E0316BE892800314AED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = RDMatrixView/ViewController.m; sourceTree = SOURCE_ROOT; };
+		321B7E0616BE896B00314AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RDMatrixView/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		321B7E0816BE896B00314AED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = RDMatrixView/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		321B7E0A16BE896B00314AED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = RDMatrixView/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		321B7E0E16BE897A00314AED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "RDMatrixView/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		321B7E0F16BE897A00314AED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RDMatrixView/Default.png; sourceTree = SOURCE_ROOT; };
+		321B7E1016BE897A00314AED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "RDMatrixView/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		321B7E1416BE898400314AED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RDMatrixView/main.m; sourceTree = SOURCE_ROOT; };
+		321B7E1516BE898400314AED /* RDMatrixView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RDMatrixView-Info.plist"; path = "RDMatrixView/RDMatrixView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		321B7E1616BE898400314AED /* RDMatrixView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RDMatrixView-Prefix.pch"; path = "RDMatrixView/RDMatrixView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +92,11 @@
 		3208DF8116B3B3B5006533AA /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				3208DF8A16B3B3B5006533AA /* AppDelegate.h */,
-				3208DF8B16B3B3B5006533AA /* AppDelegate.m */,
-				3208DF9316B3B3B5006533AA /* MainStoryboard_iPhone.storyboard */,
-				3208DF9616B3B3B5006533AA /* MainStoryboard_iPad.storyboard */,
-				3208DF9916B3B3B5006533AA /* ViewController.h */,
-				3208DF9A16B3B3B5006533AA /* ViewController.m */,
+				321B7E0216BE892800314AED /* ViewController.h */,
+				321B7E0316BE892800314AED /* ViewController.m */,
+				321B7DFF16BE891000314AED /* AppDelegate.h */,
+				321B7E0016BE891000314AED /* AppDelegate.m */,
+				321B7DE616BE871300314AED /* en.lproj */,
 				3208DF8216B3B3B5006533AA /* Supporting Files */,
 			);
 			name = Sample;
@@ -106,13 +106,12 @@
 		3208DF8216B3B3B5006533AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3208DF8316B3B3B5006533AA /* RDMatrixView-Info.plist */,
-				3208DF8416B3B3B5006533AA /* InfoPlist.strings */,
-				3208DF8716B3B3B5006533AA /* main.m */,
-				3208DF8916B3B3B5006533AA /* RDMatrixView-Prefix.pch */,
-				3208DF8D16B3B3B5006533AA /* Default.png */,
-				3208DF8F16B3B3B5006533AA /* Default@2x.png */,
-				3208DF9116B3B3B5006533AA /* Default-568h@2x.png */,
+				321B7E1416BE898400314AED /* main.m */,
+				321B7E1516BE898400314AED /* RDMatrixView-Info.plist */,
+				321B7E1616BE898400314AED /* RDMatrixView-Prefix.pch */,
+				321B7E0E16BE897A00314AED /* Default-568h@2x.png */,
+				321B7E0F16BE897A00314AED /* Default.png */,
+				321B7E1016BE897A00314AED /* Default@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,12 +119,23 @@
 		3208DFD716B547B2006533AA /* RDMatrixView */ = {
 			isa = PBXGroup;
 			children = (
-				3208DFC816B3C0B7006533AA /* RDMatrixView.h */,
-				3208DFC916B3C0B7006533AA /* RDMatrixView.m */,
+				321B7DFC16BE890000314AED /* RDMatrixView.h */,
+				321B7DFD16BE890000314AED /* RDMatrixView.m */,
 			);
 			name = RDMatrixView;
 			path = LayoutCorrectionTest;
 			sourceTree = "<group>";
+		};
+		321B7DE616BE871300314AED /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				321B7E0516BE896B00314AED /* InfoPlist.strings */,
+				321B7E0716BE896B00314AED /* MainStoryboard_iPad.storyboard */,
+				321B7E0916BE896B00314AED /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = en.lproj;
+			path = RDMatirxView/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -178,12 +188,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3208DF8616B3B3B5006533AA /* InfoPlist.strings in Resources */,
-				3208DF8E16B3B3B5006533AA /* Default.png in Resources */,
-				3208DF9016B3B3B5006533AA /* Default@2x.png in Resources */,
-				3208DF9216B3B3B5006533AA /* Default-568h@2x.png in Resources */,
-				3208DF9516B3B3B5006533AA /* MainStoryboard_iPhone.storyboard in Resources */,
-				3208DF9816B3B3B5006533AA /* MainStoryboard_iPad.storyboard in Resources */,
+				321B7E0B16BE896B00314AED /* InfoPlist.strings in Resources */,
+				321B7E0C16BE896B00314AED /* MainStoryboard_iPad.storyboard in Resources */,
+				321B7E0D16BE896B00314AED /* MainStoryboard_iPhone.storyboard in Resources */,
+				321B7E1116BE897A00314AED /* Default-568h@2x.png in Resources */,
+				321B7E1216BE897A00314AED /* Default.png in Resources */,
+				321B7E1316BE897A00314AED /* Default@2x.png in Resources */,
+				321B7E1816BE898400314AED /* RDMatrixView-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,38 +205,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3208DF8816B3B3B5006533AA /* main.m in Sources */,
-				3208DF8C16B3B3B5006533AA /* AppDelegate.m in Sources */,
-				3208DF9B16B3B3B5006533AA /* ViewController.m in Sources */,
-				3208DFCA16B3C0B7006533AA /* RDMatrixView.m in Sources */,
+				321B7DFE16BE890000314AED /* RDMatrixView.m in Sources */,
+				321B7E0116BE891000314AED /* AppDelegate.m in Sources */,
+				321B7E0416BE892800314AED /* ViewController.m in Sources */,
+				321B7E1716BE898400314AED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3208DF8416B3B3B5006533AA /* InfoPlist.strings */ = {
+		321B7E0516BE896B00314AED /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3208DF8516B3B3B5006533AA /* en */,
+				321B7E0616BE896B00314AED /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3208DF9316B3B3B5006533AA /* MainStoryboard_iPhone.storyboard */ = {
+		321B7E0716BE896B00314AED /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3208DF9416B3B3B5006533AA /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		3208DF9616B3B3B5006533AA /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3208DF9716B3B3B5006533AA /* en */,
+				321B7E0816BE896B00314AED /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		321B7E0916BE896B00314AED /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321B7E0A16BE896B00314AED /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,8 +298,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LayoutCorrectionTest/RDMatrixView-Prefix.pch";
-				INFOPLIST_FILE = "LayoutCorrectionTest/RDMatrixView-Info.plist";
+				GCC_PREFIX_HEADER = "RDMatrixView/RDMatrixView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RDMatrixView/RDMatrixView-Info.plist";
 				PRODUCT_NAME = RDMatrixView;
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,8 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LayoutCorrectionTest/RDMatrixView-Prefix.pch";
-				INFOPLIST_FILE = "LayoutCorrectionTest/RDMatrixView-Info.plist";
+				GCC_PREFIX_HEADER = "RDMatrixView/RDMatrixView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RDMatrixView/RDMatrixView-Info.plist";
 				PRODUCT_NAME = RDMatrixView;
 				WRAPPER_EXTENSION = app;
 			};
