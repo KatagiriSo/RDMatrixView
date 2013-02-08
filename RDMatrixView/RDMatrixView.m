@@ -13,6 +13,19 @@
 
 @implementation RDMatrixView
 
+- (void)setMaxX:(NSInteger)maxX
+{
+    _maxX = maxX;
+    [self setUpBaseView];
+}
+
+- (void)setMaxY:(NSInteger)maxY
+{
+    _maxY = maxY;
+    [self setUpBaseView];
+}
+
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
