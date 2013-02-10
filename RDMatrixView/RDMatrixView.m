@@ -9,6 +9,7 @@
 #import "RDMatrixView.h"
 @interface RDMatrixView()
 @property (nonatomic, strong) UIView *baseView;
+@property (nonatomic, strong) NSMutableDictionary *displayViewDic;
 @end
 
 @implementation RDMatrixView
@@ -24,7 +25,6 @@
     _maxY = maxY;
     [self setUpBaseView];
 }
-
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -78,7 +78,6 @@
     float x = (rect.origin.x>0) ? rect.origin.x : 0;
     float y = (rect.origin.y>0) ? rect.origin.y : 0;
     
-    // Drawing code
     NSInteger startXNum = [self numberRegion:x
                                   targetSize:self.cellView.frame.size.width];
     NSInteger endXNum = [self numberRegion:x+rect.size.width
@@ -94,8 +93,8 @@
     
     for (int iy = startYNum ; iy<endYNum ;iy++) for (int ix = startXNum; ix<endXNum; ix++)
     {
-        NSInteger keyNum = iy*1000+ix+1;
-        if ([self.baseView viewWithTag:keyNum]) continue;
+        NSInteger keyNum = [self tagForx:ix y:iy];
+        if ([self existTag:keyNum]) continue;
         
         UIView *v = [self.matrixDelegate matrixView:self viewForx:ix y:iy];
         v.tag = keyNum;
@@ -108,10 +107,15 @@
                                                                                          action:@selector(tap:)];
             [v addGestureRecognizer:taoGesture];
         }
-    
+        
         
         [self.baseView addSubview:v];
     }
+}
+
+- (void)setUpDisplayViewDic
+{
+    self.displayViewDic = [NSMutableDictionary dictionary];
 }
 
 - (void)setUpBaseView
@@ -132,20 +136,51 @@
 
 - (void)setUp
 {
+    [self setUpDisplayViewDic];
     [self setUpBaseView];
+}
+
+- (UIView *)viewTag:(NSInteger)tag
+{
+    return (UIView *)[self.displayViewDic objectForKey:[self strForTag:tag]];
+}
+
+- (BOOL)existTag:(NSInteger)tag
+{
+    return ([self viewTag:tag] != nil);
+}
+
+- (NSString *)strForTag:(NSInteger)tag
+{
+    return [NSString stringWithFormat:@"%d",tag];
+}
+
+- (NSInteger)tagForx:(NSInteger)x y:(NSInteger)y
+{
+    return  y*1000+x+1;
+}
+
+- (NSInteger)xforTag:(NSInteger)tag
+{
+    return tag % 1000 - 1;
+}
+
+- (NSInteger)yforTag:(NSInteger)tag
+{
+    return (NSInteger)(tag/1000);
 }
 
 - (NSInteger)xforCell:(UIView *)view
 {
-    return view.tag % 1000;
+    return [self xforTag:view.tag];
 }
 
 - (NSInteger)yforCell:(UIView *)view
 {
-    return (NSInteger)(view.tag/1000);
+    return [self yforTag:view.tag];
 }
 
-#pragma mark - 
+#pragma mark -
 
 - (void)tap:(UITapGestureRecognizer *)gesture
 {
